@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+body {
+  font-family: Georgia;
+  background-color: wheat;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  border: 10px black;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+}
+
+:visited{
+  color: darkviolet ;
+}
+
+i, a:hover{
+  transition: 0.5s;
+ color: olivedrab;
+}
+
+.btn {
+  background-color: yellowgreen;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: darkviolet;
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  padding: 2px 5px;
+  text-align: center;
+  margin: 20px;
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+table, td, th{
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+h3 {
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
